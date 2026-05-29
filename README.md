@@ -1,5 +1,3 @@
-# phfr
-pers_st
 # Photos
 
 A categorized library of stock photos (sourced from Unsplash), organized by subject and renamed in kebab-case to reflect their visual content.

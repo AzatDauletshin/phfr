@@ -14,7 +14,8 @@ photos/
 ├── Restaurants/     # restaurant interiors, table settings, plated spreads
 ├── Food/            # individual dishes, bowls, prepared food
 ├── Health/          # medical, pharma, DNA/biotech illustrations
-└── Events/          # concerts, theaters, cinemas, tickets
+├── Events/          # concerts, theaters, cinemas, tickets
+└── Backgrounds/     # abstract gradient and aurora backgrounds
 ```
 
 ## Counts
@@ -29,7 +30,8 @@ photos/
 | Travel/Railways  | 7     |
 | Restaurants      | 5     |
 | Food             | 5     |
-| **Total**        | **86** |
+| Backgrounds      | 14    |
+| **Total**        | **100** |
 
 ## Naming convention
 

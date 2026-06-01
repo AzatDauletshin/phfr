@@ -15,7 +15,10 @@ photos/
 ├── Food/            # individual dishes, bowls, prepared food
 ├── Health/          # medical, pharma, DNA/biotech illustrations
 ├── Events/          # concerts, theaters, cinemas, tickets
-└── Backgrounds/     # abstract gradient and aurora backgrounds
+├── Backgrounds/     # abstract gradient and aurora backgrounds
+├── Office/          # office buildings, interiors, meeting rooms, skyscrapers
+├── Finance/         # trading desks, charts, calculators, bookkeeping
+└── Technology/      # abstract digital/data/network visualizations
 ```
 
 ## Counts
@@ -31,7 +34,10 @@ photos/
 | Restaurants      | 5     |
 | Food             | 5     |
 | Backgrounds      | 14    |
-| **Total**        | **100** |
+| Office           | 18    |
+| Finance          | 7     |
+| Technology       | 5     |
+| **Total**        | **130** |
 
 ## Naming convention
 
@@ -39,13 +45,3 @@ photos/
 - Names describe the **content** of the photo, not the photographer or source ID.
 - Format: `subject-modifier-detail.jpg` (e.g. `airplane-window-snowy-mountains.jpg`, `hotel-bedroom-pink.jpg`).
 - The category is implied by the parent folder, so names don't repeat it (e.g. inside `Travel/Hotels/`, files are `hotel-bedroom-*.jpg` rather than `travel-hotel-bedroom-*.jpg`).
-
-## Adding new photos
-
-1. Drop the file into the matching category folder.
-2. Rename to kebab-case based on what's in the photo.
-3. Keep names short but specific enough to disambiguate similar shots (`airplane-belly-blue-sky.jpg` vs `airplane-belly-clear-sky.jpg`).
-
-## Attribution
-
-All photos were originally sourced from [Unsplash](https://unsplash.com). The original Unsplash filenames (e.g. `alexander-mils-7EpPehZxP6E-unsplash.jpg`) preserved the photographer and image ID — if you need to credit a specific photo, the original IDs are recoverable from git history before the renaming commit.
